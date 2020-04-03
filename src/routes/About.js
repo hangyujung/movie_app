@@ -7,7 +7,7 @@ function About(props) {
     <div className="about__container">
       <span>
         “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follows.”
+        granted, all else follo나는 한규정ws.”
       </span>
       <span>− George Orwell, 1984</span>
     </div>

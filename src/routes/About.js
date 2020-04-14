@@ -6,10 +6,10 @@ function About(props) {
   return (
     <div className="about__container">
       <span>
-        “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follo나는 한규정ws.”
+        “한규정 기숙사에서 잠들다”
+       
       </span>
-      <span>− George Orwell, 1984</span>
+      <span>−한규정(1996)</span>
     </div>
   );
 }

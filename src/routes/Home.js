@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
 import "./Home.css";
+import Search, {Component} from "../components/Search";
 
 class Home extends React.Component {
   state = {
@@ -24,7 +25,10 @@ class Home extends React.Component {
   render() {
     const { isLoading, movies } = this.state;
     return (
+     
+      
       <section className="container">
+         <Search></Search>
         {isLoading ? (
           <div className="loader">
             <span className="loader__text">Loading...</span>
@@ -43,9 +47,11 @@ class Home extends React.Component {
               />
             ))}
           </div>
+          
         )}
       </section>
     );
+    
   }
 }
 

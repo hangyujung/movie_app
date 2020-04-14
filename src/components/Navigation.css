@@ -1,0 +1,11 @@
+#homebutton{
+    position:fixed;
+    width:970px;
+    top: 0%;
+    padding-right:200px;
+    padding-left:500px;
+    z-index: 6;
+
+
+
+}

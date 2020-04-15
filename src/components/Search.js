@@ -11,7 +11,7 @@ class Search extends Component{
               <Input type="text" name="searchMovie" placeholder="영화제목" />
             </FormGroup>
             {' '}
-            <Button>검색</Button>
+            <Button style-color="#bac8ff">검색</Button>
           </Form>
         </div>
         );
